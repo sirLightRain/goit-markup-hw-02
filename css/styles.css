@@ -1,6 +1,19 @@
 /* ====================== Stule Guide (colors) ====================== */
 
-/*  */
+/* ====================== Оголошуємо змінні CSS ====================== */
+:root {
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --dark-color: #2E2F42;
+    --success-color: #31D0AA;
+    --text-color: #434455;
+    --subtle-text-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-colors: #F4F4FD;
+    /* --modal-overlay-colors: background: rgba(46, 47, 66, 0.4); */
+    /* --hero-background-color: background: rgba(46, 47, 66, 0.7); */
+}
+
 
 /* ====================== Text Guide ====================== */
 
@@ -11,7 +24,7 @@
     font-style: normal;
     letter-spacing: 0.02em;
     color: #2E2F42;
-}
+    }
 
 /* H1 style */
 .title-first 
@@ -75,6 +88,7 @@
     letter-spacing: 0.04em; 
 }
 
+/* Button text style */
 .button-text
 {
     font-weight: 500;
@@ -87,12 +101,23 @@
     /* align-items: center; */
     letter-spacing: 0.04em; 
 }
-/* ====================== Оголошуємо змінні CSS ====================== */
-:root {
-    --primary-text-color: #434455;
-    --titel-text-color: #2E2F42;
-    --accent-color: #2f2f2f;
+
+/* Link text style */
+.link
+{
+    font-weight: 400;
+    font-size: 12px;
+    /* line-height: 16px; */
+    line-height: 1.33;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+
+    color: #4D5AE5; 
 }
+
+
 /* ====================== ====================== */
 body
 {
