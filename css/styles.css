@@ -1,0 +1,42 @@
+/* Обов'язково виділити палітру і вказати змінні.
+    Це якісна верстка і правила хорошого тону :) */
+
+
+/* Визначаємо палітру кольорів */
+
+/* Заголовки: color: #2E2F42; */
+/* Текст: color: #434455; */
+
+/* Оголошуємо змінні CSS */
+:root {
+    --primary-text-color: #434455;
+    --titel-text-color: #2E2F42;
+    --accent-color: #2f2f2f;
+}
+/* ====================== ====================== */
+body
+{
+    font-family: roboto, sans-serif;
+}
+
+/* ====================== logo ====================== */
+.logo
+{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+/* ====================== Navigation ====================== */
+
+.site-nav .link:hover,
+.site-nav .link:focus 
+{
+    color: var(--titel-text-color);
+}
+
+.site-nav .link.carrent
+{
+    color: green;
+}
