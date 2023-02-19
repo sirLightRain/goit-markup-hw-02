@@ -45,7 +45,7 @@
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize; 
-    color: var(--dark-color);
+    /* color: var(--dark-color); */
 }
 
 /* H3 style */
@@ -55,7 +55,7 @@
     font-size: 20px;
     /* line-height: 24px; */
     line-height: 1.2;
-    color: var(--dark-color);
+    /* color: var(--dark-color); */
 }
 
 /* Body text style */
@@ -75,7 +75,7 @@
     font-size: 16px;
     /* line-height: 24px; */
     line-height: 1.5;
-    color: var(--dark-color);
+    /* color: var(--dark-color); */
 }
 
 /* Adress text 
@@ -146,6 +146,7 @@
     color: var(--hero-text-color);
     background-color: var(--primary-brand-color);
     border: none;
+    cursor: pointer;
 }
 /* ====================== logo ====================== */
 .logo-web
@@ -198,12 +199,7 @@
     /* text-transform: uppercase; */
     color: var(--light-colors);
 }
-/* ====================== Global text styles ====================== */
-.page
-{
-    
-    font-family: 'roboto', sans-serif;
-}
+
 
 /* ====================== BG section Colors ====================== */
 /* Page header style */
@@ -244,6 +240,14 @@
     color: green;
 }
 
+/* ====================== Adress Activation ====================== */
+
+.adress-nav .link:hover,
+.adress-nav .link:focus 
+{
+    color: var(--primary-brand-color);
+}
+
 /* ====================== Portfolio button menu navigation ====================== */
 
 .button-nav
@@ -252,6 +256,7 @@
     background-color: var(--light-colors);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .button-nav:hover,
@@ -261,3 +266,16 @@
     background-color: var(--pressed-state-color);
     border: none;
 }
+
+/* ====================== Body global stylea ====================== */
+body
+{
+    font-family: 'roboto', sans-serif;
+    color: var(--dark-color);
+}
+/* ====================== Global text styles ====================== */
+/* .page
+{
+    
+    font-family: 'roboto', sans-serif;
+} */
