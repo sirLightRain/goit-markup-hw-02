@@ -1,13 +1,93 @@
-/* Обов'язково виділити палітру і вказати змінні.
-    Це якісна верстка і правила хорошого тону :) */
+/* ====================== Stule Guide (colors) ====================== */
+
+/*  */
+
+/* ====================== Text Guide ====================== */
+
+/* Global main paramrters for text */
+.main-text-style 
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+/* H1 style */
+.title-first 
+{
+    
+    font-weight: 700;
+    font-size: 56px;
+    /* line-height: 60px; */
+    line-height: 1.15;     
+}
+
+/* H2 style */
+.title-second
+{
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize; 
+}
+
+/* H3 style */
+.title-third
+{
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 24px; */
+    line-height: 1.2;
+}
+
+/* Body text style */
+.small-body
+{
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+}
+
+/* Body text style */
+.medium-body
+{
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+}
 
 
-/* Визначаємо палітру кольорів */
+/* Small text style */
+.smal-text
+{
+    font-weight: 400;
+    font-size: 12px;
+    /* line-height: 16px; */
+    line-height: 1.33;
+    /* identical to box height, or 133% */
 
-/* Заголовки: color: #2E2F42; */
-/* Текст: color: #434455; */
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: 0.04em; 
+}
 
-/* Оголошуємо змінні CSS */
+.button-text
+{
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+
+    /* display: flex; */
+    /* align-items: center; */
+    letter-spacing: 0.04em; 
+}
+/* ====================== Оголошуємо змінні CSS ====================== */
 :root {
     --primary-text-color: #434455;
     --titel-text-color: #2E2F42;
