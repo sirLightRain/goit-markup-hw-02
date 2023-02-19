@@ -20,10 +20,9 @@
 /* Global main paramrters for text */
 .main-text-style 
 {
-    font-family: 'Roboto';
     font-style: normal;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--dark-color);
     }
 
 /* H1 style */
@@ -33,7 +32,8 @@
     font-weight: 700;
     font-size: 56px;
     /* line-height: 60px; */
-    line-height: 1.15;     
+    line-height: 1.15;    
+    color: var(--dark-color);
 }
 
 /* H2 style */
@@ -44,6 +44,7 @@
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize; 
+    color: var(--dark-color);
 }
 
 /* H3 style */
@@ -53,40 +54,63 @@
     font-size: 20px;
     /* line-height: 24px; */
     line-height: 1.2;
+    color: var(--dark-color);
 }
 
 /* Body text style */
-.small-body
+.small-text
 {
     font-weight: 400;
     font-size: 16px;
     /* line-height: 24px; */
     line-height: 1.5;
+    color: var(--dark-color);
 }
 
 /* Body text style */
-.medium-body
+.medium-text
 {
     font-weight: 500;
     font-size: 16px;
     /* line-height: 24px; */
     line-height: 1.5;
+    color: var(--dark-color);
 }
 
+/* Adress text */
+.adress-text
+{
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    color: var(--text-color);
+}
 
-/* Small text style */
-.smal-text
+/* Footer text */
+.footer-text
+{
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    color: var(--accent-color);
+}
+
+/* Small text style 
+.smal-text-second
 {
     font-weight: 400;
     font-size: 12px;
-    /* line-height: 16px; */
+   
     line-height: 1.33;
-    /* identical to box height, or 133% */
+    
 
-    /* display: flex; */
+    
     align-items: center;
     letter-spacing: 0.04em; 
 }
+*/
 
 /* Button text style */
 .button-text
@@ -100,38 +124,63 @@
     /* display: flex; */
     /* align-items: center; */
     letter-spacing: 0.04em; 
+    color: var(--dark-color);
 }
 
-/* Link text style */
-.link
+
+/* ====================== logo ====================== */
+.logo-web
 {
-    font-weight: 400;
-    font-size: 12px;
-    /* line-height: 16px; */
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    /* line-height: 24px; */
     line-height: 1.33;
     /* identical to box height, or 133% */
 
-    letter-spacing: 0.04em;
-    text-decoration-line: underline;
-
-    color: #4D5AE5; 
+    /* display: flex; */
+    /* align-items: center; */
+    /* letter-spacing: 0.03em; */
+    /* text-transform: uppercase; */
+    color: var(--primary-brand-color); 
 }
 
-
-/* ====================== ====================== */
-body
+.logo-studio
 {
-    font-family: roboto, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    /* line-height: 24px; */
+    line-height: 1.33;
+    /* identical to box height, or 133% */
+
+    /* display: flex; */
+    /* align-items: center; */
+    /* letter-spacing: 0.03em; */
+    /* text-transform: uppercase; */
+    color: var(--dark-color);
 }
 
-/* ====================== logo ====================== */
-.logo
+/* ====================== Global styles ====================== */
+.page
 {
-    text-decoration: none;
+    
+    font-family: 'roboto', sans-serif;
 }
 
-ul {
+ul 
+{
+    
     list-style: none;
+}
+
+/* Link style */
+.link
+{
+    font-style: normal;
+    text-decoration: none;
 }
 /* ====================== Navigation ====================== */
 
@@ -141,7 +190,8 @@ ul {
     color: var(--titel-text-color);
 }
 
-.site-nav .link.carrent
+/* A highlighted link to the active page */
+.site-nav .carrent
 {
     color: green;
 }
