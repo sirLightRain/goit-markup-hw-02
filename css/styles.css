@@ -4,6 +4,7 @@
 :root {
     --primary-brand-color: #4D5AE5;
     --pressed-state-color: #404BBF;
+    --hero-text-color: #ffffff;
     --dark-color: #2E2F42;
     --success-color: #31D0AA;
     --text-color: #434455;
@@ -22,7 +23,7 @@
 {
     font-style: normal;
     letter-spacing: 0.02em;
-    color: var(--dark-color);
+    /* color: var(--dark-color); */
     }
 
 /* H1 style */
@@ -33,7 +34,7 @@
     font-size: 56px;
     /* line-height: 60px; */
     line-height: 1.15;    
-    color: var(--dark-color);
+    color: var(--hero-text-color);
 }
 
 /* H2 style */
@@ -64,7 +65,7 @@
     font-size: 16px;
     /* line-height: 24px; */
     line-height: 1.5;
-    color: var(--dark-color);
+    color: var(--text-color);
 }
 
 /* Body text style */
@@ -77,15 +78,16 @@
     color: var(--dark-color);
 }
 
-/* Adress text */
+/* Adress text 
 .adress-text
 {
     font-weight: 400;
     font-size: 16px;
-    /* line-height: 24px; */
+    
     line-height: 1.5;
     color: var(--text-color);
-}
+} */
+
 
 /* Footer text */
 .footer-text
@@ -127,7 +129,21 @@
     color: var(--dark-color);
 }
 
+/* Hero-button text style */
+.hero-button
+{
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */
+    line-height: 1.5;
+    /* identical to box height, or 150% */
 
+    /* display: flex; */
+    /* align-items: center; */
+    letter-spacing: 0.04em; 
+    color: var(--hero-text-color);
+    background-color: var(--primary-brand-color);
+}
 /* ====================== logo ====================== */
 .logo-web
 {
@@ -146,7 +162,7 @@
     color: var(--primary-brand-color); 
 }
 
-.logo-studio
+.logo-studio-h
 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -163,24 +179,53 @@
     color: var(--dark-color);
 }
 
-/* ====================== Global styles ====================== */
+.logo-studio-f
+{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    /* line-height: 24px; */
+    line-height: 1.33;
+    /* identical to box height, or 133% */
+
+    /* display: flex; */
+    /* align-items: center; */
+    /* letter-spacing: 0.03em; */
+    /* text-transform: uppercase; */
+    color: var(--light-colors);
+}
+/* ====================== Global text styles ====================== */
 .page
 {
     
     font-family: 'roboto', sans-serif;
 }
 
-ul 
+/* ====================== Colors ====================== */
+/* Page header style */
+.bg-color-h-f
 {
-    
-    list-style: none;
+    background-color: var(--dark-color);
 }
 
+/* BG section Our Team */
+.our-team-colors-bg
+{
+    background-color: var(--light-colors);
+}
+/* ul 
+{
+    list-style: none;
+} */
+
+/* ====================== Link ====================== */
 /* Link style */
 .link
 {
     font-style: normal;
     text-decoration: none;
+    list-style: none;
 }
 /* ====================== Navigation ====================== */
 
